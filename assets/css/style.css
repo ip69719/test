@@ -1,0 +1,60 @@
+/* -------------------------- Global style */
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Roboto&display=swap');
+
+
+/*remove default margin, padding and border*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+  }
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+.col {
+    flex-basis: 100%;
+  }
+ 
+  @media screen and (min-width: 800px) {
+    .col{
+      flex: 1;
+    }
+  }
+
+.col {
+    padding: 15px;
+    border: 1px solid black;
+    margin: 5px 0;
+    background: teal
+  }
+
+
+  /*image container*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.item {
+    background: teal;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+h2,
+h3,
+p {
+    text-align: center;
+}
